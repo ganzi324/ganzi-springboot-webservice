@@ -1,4 +1,4 @@
-package com.ganzi.springboot.config.auth.dto;
+package com.ganzi.springboot.config.dto;
 
 import com.ganzi.springboot.domain.user.User;
 import lombok.Getter;
