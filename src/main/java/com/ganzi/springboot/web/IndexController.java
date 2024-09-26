@@ -1,6 +1,6 @@
 package com.ganzi.springboot.web;
 
-import com.ganzi.springboot.config.dto.SessionUser;
+import com.ganzi.springboot.config.auth.dto.SessionUser;
 import com.ganzi.springboot.service.posts.PostsService;
 import com.ganzi.springboot.web.dto.PostsResponseDto;
 import jakarta.servlet.http.HttpSession;

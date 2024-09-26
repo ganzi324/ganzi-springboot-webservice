@@ -1,6 +1,6 @@
-package com.ganzi.springboot.config;
+package com.ganzi.springboot.config.auth;
 
-import com.ganzi.springboot.config.dto.SessionUser;
+import com.ganzi.springboot.config.auth.dto.SessionUser;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;

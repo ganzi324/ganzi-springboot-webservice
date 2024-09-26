@@ -1,4 +1,4 @@
-package com.ganzi.springboot.config;
+package com.ganzi.springboot.config.auth;
 
 import com.ganzi.springboot.domain.user.Role;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.ganzi.springboot.config;
+package com.ganzi.springboot.config.auth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

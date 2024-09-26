@@ -1,7 +1,7 @@
-package com.ganzi.springboot.config;
+package com.ganzi.springboot.config.auth;
 
-import com.ganzi.springboot.config.dto.OAuthAttributes;
-import com.ganzi.springboot.config.dto.SessionUser;
+import com.ganzi.springboot.config.auth.dto.OAuthAttributes;
+import com.ganzi.springboot.config.auth.dto.SessionUser;
 import com.ganzi.springboot.domain.user.User;
 import com.ganzi.springboot.domain.user.UserRepository;
 import jakarta.servlet.http.HttpSession;
