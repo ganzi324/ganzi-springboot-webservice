@@ -1,0 +1,29 @@
+server:
+  servlet:
+    encoding:
+      force-response: true
+
+spring:
+  jpa:
+    show_sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=MySQL
+  h2:
+    console:
+      enabled: true
+  session:
+    store-type: jdbc
+
+  # Test OAuth
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope: profile,email
