@@ -23,10 +23,3 @@ spring:
 
   session:
     store-type: jdbc
-
-  main:
-    web-application-type: none
-
-logging:
-  level:
-    root: DEBUG
