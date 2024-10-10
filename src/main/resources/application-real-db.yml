@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://ec2-52-79-96-18.ap-northeast-2.compute.amazonaws.com:3306/ganzi-springboot-webservice
+    username: ganzi324
+    password: Rkswlsksek7!
+    driver-class-name: org.mariadb.jdbc.Driver
