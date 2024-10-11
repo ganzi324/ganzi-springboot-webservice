@@ -33,6 +33,16 @@ deploy:
     acl: private
     local_dir: deploy
     wait-until-deployed: true
+  - provider: codedeploy
+    access_key_id: $AWS_ACCESS_KEY # Travis repo setting
+    secret_access_key: $AWS_SECRET_KEY # Travis repo setting
+    bucket: ganzi-springboot-build
+    key: ganzi-springboot-webservice.zip
+    bundle_type: zip
+    application: ganzi-springboot-webservice
+    deployment_group: ganzi-springboot-webservice-group
+    region: ap-northeast-2
+    wait-until-deployed: true
 
 # CI 실행 완료 시 메일로 알람
 notifications:
