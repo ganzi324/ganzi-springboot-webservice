@@ -23,7 +23,7 @@ function find_idle_profile()
   echo "${IDLE_PROFILE}"
 }
 
-func find_idle_port()
+function find_idle_port()
 {
   IDLE_PROFILE=$(find_idle_profile)
 
